@@ -2,10 +2,7 @@ import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { portfolio } from "../data/portfolio";
 
 
-import {
-    FaGithub,
 
-  } from "react-icons/fa";
 
 
 export default function Projects() {
@@ -39,7 +36,7 @@ export default function Projects() {
         <article className="mt-14 rounded-3xl border border-slate-800 bg-gradient-to-br from-slate-900 to-slate-950 p-8 md:p-12">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3">
-              {/* <Github className="text-blue-400" /> */}
+
 
               <span className="text-sm text-blue-400">
                 GitHub Project
@@ -89,7 +86,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="mt-10 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-6 py-3 font-medium text-white hover:bg-blue-500"
             >
-              {/* <FaGithub size={18} /> */}
+             
               Explore the Project
             </a>
           </div>

@@ -1,5 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { portfolio } from "../data/portfolio";
 
 export default function Contact() {
@@ -36,8 +36,8 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 rounded-lg border border-slate-700 px-6 py-4 text-slate-200 transition hover:border-blue-500 hover:text-white"
               >
-                <FaGithub size={20} />
-                GitHub
+                {/* <FaGithub size={20} />
+                GitHub */}
               </a>
 
               <a
